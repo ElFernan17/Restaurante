@@ -42,7 +42,6 @@ public class RestauranteTest {
 		System.out.println("Direccion: " + rest2.direccion);
 		System.out.println("Calificacion: " + rest2.calificacion);
 		
-		//................
 		
 	}
 
