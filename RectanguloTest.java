@@ -12,9 +12,9 @@ public class RectanguloTest {
 		
 		double resultadoPerimetro = r1.calcularPerimetro();
 		
-		System.out.println("resultado area = " + resultado);
+		System.out.println("resultado area rectangulo= " + resultado);
 		
-		System.out.println("resultado perimetro = " + resultadoPerimetro);
+		System.out.println("resultado perimetro rectangulo= " + resultadoPerimetro);
 		
 		
 		
@@ -27,9 +27,9 @@ public class RectanguloTest {
 		
 		double resultadoPerimetro2 = r2.calcularPerimetro();
 		
-		System.out.println("resultado area 2 = " + resultado2);
+		System.out.println("resultado area rectangulo2 = " + resultado2);
 		
-		System.out.println("resultado perimetro = " + resultadoPerimetro2);
+		System.out.println("resultado perimetro rectangulo2= " + resultadoPerimetro2);
 	}
 
 }
