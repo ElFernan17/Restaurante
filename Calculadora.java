@@ -1,0 +1,49 @@
+package home.krakedev;
+
+public class Calculadora {
+	
+	public int sumar(int a, int b) {
+		int resultado;
+		
+		resultado = a + b;
+		
+		return resultado;
+	}
+	
+	public int restar(int a, int b) {
+		int resultado;
+		
+		resultado = a- b;
+		
+		return resultado;
+	}
+	
+	public double multiplicar(double valor1, double valor2) {
+		double resultado;
+		
+		resultado = valor1 * valor2;
+		
+		return resultado;
+	}
+	
+	public double dividir(double dividendo, double divisor) {
+		double cociente;
+		
+		cociente = dividendo / divisor;
+		
+		return cociente;
+	}
+	
+	public double promediar(double valor1, double valor2, double valor3) {
+		double suma;
+		double promedio;
+		
+		suma = valor1 + valor2 + valor3;
+		
+		promedio = suma / 3;
+				
+		return promedio;
+	}
+	
+	
+}
